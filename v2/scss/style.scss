@@ -1,0 +1,144 @@
+// main file
+
+// vars
+$primaryColour: #563d7c;  //purple
+
+// import template styles
+@import "justified-nav";
+@import "btn-outline";
+
+
+// our styles...
+
+.accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+a {
+  //color: #337ab7;
+  color: $primaryColour !important;
+  text-decoration: none;
+}
+
+body {
+  padding-top: 0;
+}
+
+//.masthead .text-muted,
+.navbar-brand {
+  font-weight: 100;
+  font-size: 2.2em !important;
+  margin-top: 0;
+  color: #6f5499 !important;
+  top: -2px;
+  position: relative;
+  span {
+    font-weight: 400;
+    color: #444 !important;
+  }
+}
+.navbar-default .navbar-nav>li>a {
+  color: #666 !important;
+  text-decoration: none;
+  &:hover, &:active, &:focus {
+    text-decoration: underline;
+  }
+}
+.navbar {
+  min-height: 53px;
+}
+
+p a, li a {
+  text-decoration: underline;
+}
+h3 {
+  //color: #777;
+  font-weight: 400 !important;
+}
+
+img {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.bgColour {
+  //position: relative;
+  //padding: 30px 15px;
+  //margin-bottom: 15px !important;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  background-color: #6f5499;
+  background-image: -webkit-gradient(linear,left top,left bottom,from($primaryColour),to(#6f5499));
+  background-image: -webkit-linear-gradient(top,$primaryColour 0,#6f5499 100%);
+  background-image: -o-linear-gradient(top,$primaryColour 0,#6f5499 100%);
+  background-image: linear-gradient(to bottom,$primaryColour 0,#6f5499 100%), url('img/sc.png') no-repeat center right;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primaryColour', endColorstr='#6F5499', GradientType=0);
+  background-repeat: repeat-x;
+  .container {
+    color: #eee;
+  }
+}
+
+.bgColour:first-of-type {
+  //position: relative;
+  //padding: 30px 15px;
+  margin-bottom: 15px !important;
+  p {
+    margin: 0 !important;
+    background: url('img/sc.png') no-repeat center left;
+    line-height: 3.6em;
+    text-align: right;
+    font-size: 2.4em;
+    font-weight: 100;
+    //background-size: (95px/2.1) (120px/2.1);
+  }
+}
+
+.page-header {
+  border-bottom: none !important;
+  //border-top: 1px solid #eee;
+  border-top: 1px solid lighten( $primaryColour, 45% );
+  padding-top: 20px;
+}
+.page-header:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.navbar {
+  margin-bottom: 0 !important;
+}
+
+#local {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.media-body {
+  width: 100%;
+  .btn {
+    margin-top: 8px;
+  }
+}
+
+.footer{
+  padding-top: 25px;
+  padding-bottom: 12px;
+  border: none;
+  background: url('img/sc.png') no-repeat center right;
+  background-size: (95px/2.1) (120px/2.1);
+  p {
+    font-weight: 200;
+    text-align: left;
+    font-size: 105%;
+  }
+}
