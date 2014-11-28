@@ -2,6 +2,11 @@
 
 // vars
 $primaryColour: #563d7c;  //purple
+// $primaryColour: #660000;  // horrid red
+
+// $primaryColourLighter: #6F5499;  //lighter purple
+$primaryColourLighter: lighten( $primaryColour, 12% );  //lighter purple
+// $primaryColourLighter: #07076a;  // 90's blue
 
 // import template styles
 @import "justified-nav";
@@ -36,7 +41,7 @@ body {
   font-weight: 100;
   font-size: 2.2em !important;
   margin-top: 0;
-  color: #6f5499 !important;
+  color: $primaryColourLighter !important;
   top: -2px;
   position: relative;
   span {
@@ -75,12 +80,12 @@ img {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 0 rgba(0,0,0,.1);
-  background-color: #6f5499;
-  background-image: -webkit-gradient(linear,left top,left bottom,from($primaryColour),to(#6f5499));
-  background-image: -webkit-linear-gradient(top,$primaryColour 0,#6f5499 100%);
-  background-image: -o-linear-gradient(top,$primaryColour 0,#6f5499 100%);
-  background-image: linear-gradient(to bottom,$primaryColour 0,#6f5499 100%), url('img/sc.png') no-repeat center right;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primaryColour', endColorstr='#6F5499', GradientType=0);
+  background-color: $primaryColourLighter;
+  background-image: -webkit-gradient(linear,left top,left bottom,from($primaryColour),to($primaryColourLighter));
+  background-image: -webkit-linear-gradient(top,$primaryColour 0,$primaryColourLighter 100%);
+  background-image: -o-linear-gradient(top,$primaryColour 0,$primaryColourLighter 100%);
+  background-image: linear-gradient(to bottom,$primaryColour 0,$primaryColourLighter 100%), url('img/sc.png') no-repeat center right;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primaryColour', endColorstr='$primaryColourLighter', GradientType=0);
   background-repeat: repeat-x;
   .container {
     color: #eee;
@@ -128,6 +133,14 @@ img {
   .btn {
     margin-top: 8px;
   }
+}
+
+.panel .name {
+  // width: 70%;
+  // display: inline;
+  // float: left;
+  display: block;
+  min-height: 4.3em;
 }
 
 .footer{
