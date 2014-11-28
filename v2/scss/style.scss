@@ -149,9 +149,10 @@ img {
   border: none;
   background: url('img/sc.png') no-repeat center right;
   background-size: (95px/2.1) (120px/2.1);
-  p {
+  p, a {
     font-weight: 200;
     text-align: left;
+    color: #fff !important;
     font-size: 105%;
   }
 }
