@@ -19,7 +19,7 @@
 <h2>Linking to www.gov.au</h2>
 <p>A link graphic and html code is provided below if you wish to link to this site.</p>
 
-<p><a href="http://www.gov.au/"><img src="images/gov_button.gif" alt="Access to the information and services of the Australian federal, state &amp; territory governments" border="0" height="31" width="88" /></a>&lt;a   href="http://www.gov.au/"&gt;&lt;img src="http://www.gov.au/images/gov_button.gif"   width="88" height="31" border="0" alt="Access to the information and services of the Australian, state, territory &amp;   local governments"&gt;&lt;/a&gt;</p>
+<p><a href="http://www.gov.au/"><img src="img/gov_button.gif" alt="Access to the information and services of the Australian federal, state &amp; territory governments" border="0" height="31" width="88" /></a>&lt;a   href="http://www.gov.au/"&gt;&lt;img src="http://www.gov.au/images/gov_button.gif"   width="88" height="31" border="0" alt="Access to the information and services of the Australian, state, territory &amp;   local governments"&gt;&lt;/a&gt;</p>
 
 <h2>This site is hosted on behalf of the Australian Government and state, territory and local governments by:</h2>
 
