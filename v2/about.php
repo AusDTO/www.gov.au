@@ -1,7 +1,9 @@
-<?php include "header.inc.php"; ?>
+<?php
+$page = "About";
+include "header.inc.php"; ?>
 
 
-<div class="page-header" id="state">
+<div class="page-header">
   <h1>About the site</h1>
   <h2>What is www.gov.au?</h2>
   <p class="lead"><a href="http://www.gov.au/">www.gov.au</a> is the Australian whole-of-government single point of access that links to all Australian Government, state, territory and local government online entry points. This site aims to provide access to government information and services across all government jurisdictions in Australia.</p>
@@ -19,22 +21,26 @@
 <h2>Linking to www.gov.au</h2>
 <p>A link graphic and html code is provided below if you wish to link to this site.</p>
 
-<p><a href="http://www.gov.au/"><img src="img/gov_button.gif" alt="Access to the information and services of the Australian federal, state &amp; territory governments" border="0" height="31" width="88" /></a>&lt;a   href="http://www.gov.au/"&gt;&lt;img src="http://www.gov.au/images/gov_button.gif"   width="88" height="31" border="0" alt="Access to the information and services of the Australian, state, territory &amp;   local governments"&gt;&lt;/a&gt;</p>
+<p>
+  <a href="http://www.gov.au/">
+    <img src="img/linkto.png" srcset="img/linkto@2x.png"
+      alt="Access to the information and services of the Australian federal,
+      state &amp; territory governments" border="0" width="140" height="45" />
+  </a>
+</p>
+<pre>
+  &lt;a href="http://www.gov.au/"&gt;
+    &lt;img src="http://www.gov.au/img/linkto.png"
+      srcset="http://www.gov.au/img/linkto@2x.png"
+      width="140" height="45" border="0"
+      alt="Access to the information and services
+      of the Australian, state, territory &amp; local governments"&gt;
+  &lt;/a&gt;
+</pre><br>
 
 <h2>This site is hosted on behalf of the Australian Government and state, territory and local governments by:</h2>
+<?php include "address.inc.php"; ?>
 
-<address class="vcard">
-  <span class="fn">Manager, australia.gov.au<br></span>
-  <span class="org">Technology and Procurement Division<br>
-    Department of Finance<br></span>
-  <span class="adr">
-    John Gorton Building<br>
-    <span class="street-address">King Edward Terrace<br></span>
-    <span class="locality">Parkes</span> <span class="region">ACT</span> <span class="postal-code">2600</span>
-    <br>
-    <span class="country-name">Australia</span>
-  </span>
-</address>
 <p>If you wish to provide feedback about this site, please <a href="http://australia.gov.au/help-and-contact">contact via australia.gov.au</a>.</p>
 
 

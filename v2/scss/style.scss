@@ -9,7 +9,7 @@ $primaryColourLighter: lighten( $primaryColour, 12% );  //lighter purple
 // $primaryColourLighter: #07076a;  // 90's blue
 
 // import template styles
-@import "justified-nav";
+// @import "justified-nav";
 @import "btn-outline";
 
 
@@ -30,6 +30,10 @@ a {
   //color: #337ab7;
   color: $primaryColour !important;
   text-decoration: none;
+}
+
+html {
+  background-color: $primaryColourLighter;
 }
 
 body {
@@ -71,6 +75,14 @@ h3 {
 img {
   background: #ccc;
   border-radius: 3px;
+}
+
+a img {
+  text-decoration: none;
+}
+
+.container {
+  // min-height: 59vh;
 }
 
 .bgColour {

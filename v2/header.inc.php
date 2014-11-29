@@ -1,22 +1,27 @@
+<?php
+$base_url = "./";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
-  <meta name="robots" content="noindex, nofollow">  <!-- may want this gone before prod time :P -->
+  <meta name="robots" content="noindex, nofollow">  <!-- may want this gone before in prod :P -->
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home - www.gov.au</title>
+  <title><?php echo $page; ?> - www.gov.au</title>
 
   <link href="style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
   <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="favicon.ico"/>
   <!--[if IE]>
-  <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
   <![endif]-->
   <link rel="apple-touch-icon-precomposed" href="favicons/favicon-152.png"/>
   <meta name="msapplication-TileColor" content="#563d7c"/>
@@ -29,8 +34,8 @@
   <link rel="apple-touch-icon-precomposed" href="favicons/favicon-57.png"/>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
 
@@ -39,25 +44,23 @@
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">www.<span>gov.au</span></a>
+        <a class="navbar-brand" href="<?php echo $base_url; ?>">www.<span>gov.au</span></a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse">
+      <div id="main-navbar-collapse" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#">Australian Government</a></li>
-          <li><a href="#">State Government</a></li>
-          <li><a href="#">Local Government</a></li>
+          <li><a href="<?php echo $base_url; ?>#ausgov">Australian Government</a></li>
+          <li><a href="<?php echo $base_url; ?>#state">State Government</a></li>
+          <li><a href="<?php echo $base_url; ?>#local">Local Government</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Help</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="about">About</a></li>
         </ul>
       </div>
     </div>
