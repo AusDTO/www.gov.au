@@ -14,9 +14,10 @@ $base_url = "./";
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo $page; ?> - www.gov.au</title>
 
-  <link href="style.css" rel="stylesheet">
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  <link href="style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
   <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="favicon.ico"/>
