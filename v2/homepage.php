@@ -63,7 +63,7 @@
 
   <div class="page-header" id="state">
     <h2>State and Territory Government entry points</h2>
-    <p class="lead">Each state and territory government has their own website that directs people to the services they offer, including births deaths and marriages, car licensing and registration, hospitals and public health and public schools.</p>
+    <p class="lead">Each state and territory government has its own website that directs people to the services they offer, including policing, public schools, roads and traffic including driver's licences and vehicle registrations, public hospitals, public housing, and business regulation.</p>
   </div>
 
   <div class="row">
