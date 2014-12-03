@@ -140,8 +140,12 @@ a img {
 }
 
 #local {
-  padding-bottom: 0;
-  margin-bottom: 0;
+  // padding-bottom: 0;
+  // margin-bottom: 0;
+}
+
+.lead {
+  margin-bottom: 0.5em;
 }
 
 .media-body {
@@ -156,12 +160,14 @@ a img {
   // display: inline;
   // float: left;
   display: block;
-  min-height: 4.3em;
+  // min-height: 4.3em;
+  min-height: 3.2em;
 }
 
 .footer{
   padding-top: 25px;
   padding-bottom: 12px;
+  margin-top: 25px;
   border: none;
   background: url('img/sc.png') no-repeat center right;
   background-size: (95px/2.1) (120px/2.1);
