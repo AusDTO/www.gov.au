@@ -7,10 +7,10 @@ include "header.inc.php"; ?>
   <h1>About the site</h1>
   <h2>What is www.gov.au?</h2>
   <p class="lead">
-    <a href="http://www..gov.au/">www.gov.au</a> provides a listing of the website entry points for each level of government in Australia.
+    <a href="http://www.gov.au/">www.gov.au</a> provides a listing of the website entry points for each level of government in Australia.
   </p>
   <p class="lead">
-    <a href="http://www..gov.au/">www.gov.au</a> is not promoted as an entry point itself, but aims to effectively redirect people who end up here.
+    <a href="http://www.gov.au/">www.gov.au</a> is not promoted as an entry point itself, but aims to effectively redirect people who end up here.
     If you are trying to locate government information or services but don’t know where to start, please visit <a href="http://australia.gov.au/">australia.gov.au</a>,
     <a href="http://business.gov.au/">business.gov.au</a> or try the entry point for your state or territory government.
   </p>
