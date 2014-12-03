@@ -10,7 +10,7 @@ $primaryColourLighter: lighten( $primaryColour, 12% );  //lighter purple
 
 // import template styles
 // @import "justified-nav";
-@import "btn-outline";
+// @import "btn-outline";
 
 
 // our styles...
@@ -26,10 +26,24 @@ $primaryColourLighter: lighten( $primaryColour, 12% );  //lighter purple
   width: 1px;
 }
 
-a {
+a,
+.panel a {
   //color: #337ab7;
   color: $primaryColour !important;
   text-decoration: none;
+  &:active,
+  &:focus {
+    color: #fff !important;
+    background-color: $primaryColour;
+  }
+  &:hover {
+    color: darken($primaryColour, 15%) !important;
+  }
+}
+
+
+h2 {
+  font-weight: 400;
 }
 
 html {
@@ -155,15 +169,19 @@ a img {
   }
 }
 
-.panel .name {
-  // width: 70%;
-  // display: inline;
-  // float: left;
-  display: block;
-  // min-height: 4.3em;
-  min-height: 3.2em;
+.panel{
+  a {
+    text-decoration: underline;
+  }
+  .name {
+    // width: 70%;
+    // display: inline;
+    // float: left;
+    display: block;
+    // min-height: 4.3em;
+    min-height: 3.2em;
+  }
 }
-
 .footer{
   padding-top: 25px;
   padding-bottom: 12px;

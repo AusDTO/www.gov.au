@@ -16,7 +16,7 @@ include "header.inc.php"; ?>
 
   <p class="lead">
     If you are trying to locate government information or services but don’t know where to start, please visit <a href="http://australia.gov.au/">australia.gov.au</a>,
-    <a href="http://business.gov.au/">business.gov.au</a> or try the entry point for <a href="./#state">your state or territory government</a>.
+    <a href="http://business.gov.au/">business.gov.au</a> or try the <a href="./#state">entry point for your state or territory government</a>.
   </p>
 </div>
 

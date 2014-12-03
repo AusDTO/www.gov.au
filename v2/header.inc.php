@@ -14,7 +14,7 @@ $base_url = "./";
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo $page; ?> - www.gov.au</title>
 
-  
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
   <link href="style.css" rel="stylesheet">
@@ -70,7 +70,7 @@ $base_url = "./";
   <div class="jumbotron bgColour">
     <div class="container">
       <h1 class="accessible">www.gov.au</h1>
-      <p>A listing of websites for goverments in Australia.</p>
+      <p>A listing of websites for governments in Australia</p>
       <!-- <p><a class="btn btn-primary btn-lg btn-outline" href="#" role="button">Learn more »</a></p> -->
     </div>
   </div>

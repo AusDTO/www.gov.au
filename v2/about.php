@@ -12,7 +12,7 @@ include "header.inc.php"; ?>
   <p class="lead">
     <a href="http://www.gov.au/">www.gov.au</a> is not promoted as an entry point itself, but aims to effectively redirect people who end up here.
     If you are trying to locate government information or services but don’t know where to start, please visit <a href="http://australia.gov.au/">australia.gov.au</a>,
-    <a href="http://business.gov.au/">business.gov.au</a> or try the entry point for your state or territory government.
+    <a href="http://business.gov.au/">business.gov.au</a> or try the <a href="./#state">entry point for your state or territory government</a>.
   </p>
 </div>
 
