@@ -30,7 +30,7 @@
             </span>
             <div class="media-body">
               <h3 class="media-heading"><a href="http://business.gov.au/">business.gov.au</a></h3>
-              <p>Provides essential information on planning, starting and running a business. Offers access to all business related information across Australian, State, Territory and local governments.</p>
+              <p>Helps businesses to find all hte information and tools they need from government to start, run and grow a business.</p>
               <!-- <a href="http://business.gov.au/" class="btn btn-primary pull-right btn-outline" role="button">Visit site &raquo;</a> -->
             </div>
           </div>
@@ -66,7 +66,7 @@
     <p class="lead">Each state and territory government has its own website that directs people to the services they offer, including policing, public schools, driver's licences and vehicle registrations, public hospitals, public housing, and business regulation.</p>
   </div>
 
-  <div class="row">
+  <div class="row states">
 
     <div class="col-sm-6 col-md-3">
       <div class="panel panel-default">

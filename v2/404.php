@@ -7,11 +7,11 @@ include "header.inc.php"; ?>
   <h1>Page not found</h1>
   <!-- <h2>[Error 404]</h2> -->
   <p class="lead">
-    The page may have been moved, or perhaps you made a typo.
+    The page may have been moved.
   </p>
 
   <p class="lead">
-    You may be able to find what you're looking for on <a href="http://www.gov.au/">the home page</a>.
+    You may find what you're looking for on the <a href="http://www.gov.au/">home page of www.gov.au</a>.
   </p>
 
   <p class="lead">
