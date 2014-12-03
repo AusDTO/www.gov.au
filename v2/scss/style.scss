@@ -29,15 +29,15 @@ $primaryColourLighter: lighten( $primaryColour, 12% );  //lighter purple
 a,
 .panel a {
   //color: #337ab7;
-  color: $primaryColour !important;
+  color: $primaryColour;
   text-decoration: none;
   &:active,
   &:focus {
-    color: #fff !important;
+    color: #fff;
     background-color: $primaryColour;
   }
   &:hover {
-    color: darken($primaryColour, 15%) !important;
+    color: darken($primaryColour, 15%);
   }
 }
 
@@ -57,18 +57,18 @@ body {
 //.masthead .text-muted,
 .navbar-brand {
   font-weight: 100;
-  font-size: 2.2em !important;
+  font-size: 2.2em;
   margin-top: 0;
-  color: $primaryColourLighter !important;
+  color: $primaryColourLighter;
   top: -2px;
   position: relative;
   span {
     font-weight: 400;
-    color: #444 !important;
+    color: #444;
   }
 }
 .navbar-default .navbar-nav>li>a {
-  color: #666 !important;
+  color: #666;
   text-decoration: none;
   &:hover, &:active, &:focus {
     text-decoration: underline;
@@ -83,7 +83,7 @@ p a, li a {
 }
 h3 {
   //color: #777;
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 
 img {
@@ -121,9 +121,9 @@ a img {
 .bgColour:first-of-type {
   //position: relative;
   //padding: 30px 15px;
-  margin-bottom: 15px !important;
+  margin-bottom: 15px;
   p {
-    margin: 0 !important;
+    margin: 0;
     background: url('img/sc.png') no-repeat center left;
     line-height: 3.6em;
     text-align: right;
@@ -134,7 +134,7 @@ a img {
 }
 
 .page-header {
-  border-bottom: none !important;
+  border-bottom: none;
   //border-top: 1px solid #eee;
   border-top: 1px solid lighten( $primaryColour, 45% );
   padding-top: 20px;
@@ -146,7 +146,7 @@ a img {
 }
 
 .navbar {
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
 .fed .panel p {
@@ -170,6 +170,9 @@ a img {
 }
 
 .panel{
+  &:hover {
+    border-color: $primaryColourLighter;
+  }
   a {
     text-decoration: underline;
   }
@@ -192,8 +195,13 @@ a img {
   p, a {
     font-weight: 200;
     text-align: left;
-    color: #fff !important;
+    color: #fff;
     font-size: 105%;
+  }
+  a:active,
+  a:focus {
+    background-color: #fff;
+    color: $primaryColour;
   }
 }
 

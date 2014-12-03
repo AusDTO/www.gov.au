@@ -25,6 +25,17 @@
       }
     }
   });
+
+  // clickable boxes
+  $('.panel.panel-default').click(function(e) {
+    e.preventDefault();
+    window.location = $('.media-heading a', this).attr('href');
+
+  });
+  // only change the cursor if jQuery is working..
+  $('.panel.panel-default').css('cursor', 'pointer');
+
+
   // IE10 viewport hack for Surface/desktop Windows 8 bug
   (function () {
     'use strict';
