@@ -294,7 +294,7 @@
           <h3 class="panel-title">Tasmania</h3>
         </div>
         <div class="panel-body">
-          <a class="name" href="http://www.dpac.tas.gov.au/divisions/local_government/local_government_directory"><h4>Local Government Directory</h4></a>
+          <a class="name" href="http://www.dpac.tas.gov.au/divisions/local_government/local_government_directory"><h4>Department of Premier and Cabinet</h4></a>
           <!-- <a href="http://www.dpac.tas.gov.au/divisions/local_government/local_government_directory" class="btn btn-primary pull-right btn-outline" role="button">Visit site &raquo;</a> -->
         </div>
       </div>
@@ -306,7 +306,7 @@
           <h3 class="panel-title">Victoria</h3>
         </div>
         <div class="panel-body">
-          <a class="name" href="http://www.dtpli.vic.gov.au/local-government"><h4>Local Government</h4></a>
+          <a class="name" href="http://www.dtpli.vic.gov.au/local-government"><h4>Department of Transport, Planning and Local Infrastructure</h4></a>
           <!-- <a href="http://www.dtpli.vic.gov.au/local-government" class="btn btn-primary pull-right btn-outline" role="button">Visit site &raquo;</a> -->
         </div>
       </div>

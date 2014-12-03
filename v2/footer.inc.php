@@ -29,8 +29,7 @@
   // clickable boxes
   $('.panel.panel-default').click(function(e) {
     e.preventDefault();
-    window.location = $('.media-heading a', this).attr('href');
-
+    window.location = $('.panel-body a', this).attr('href');
   });
   // only change the cursor if jQuery is working..
   $('.panel.panel-default').css('cursor', 'pointer');
