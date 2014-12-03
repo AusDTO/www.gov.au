@@ -151,6 +151,9 @@ a img {
 
 .navbar {
   margin-bottom: 0;
+  .navbar-right a:last-of-type {
+    padding-right: 0;
+  }
 }
 
 .fed .panel p {
