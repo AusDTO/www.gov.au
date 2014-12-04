@@ -29,7 +29,7 @@
             </span>
             <div class="media-body">
               <h3 class="media-heading"><a href="http://business.gov.au/">business.gov.au</a></h3>
-              <p>Helps businesses to find all hte information and tools they need from government to start, run and grow a business.</p>
+              <p>Helps businesses to find all the information and tools they need from government to start, run and grow a business.</p>
             </div>
           </div>
         </div>
