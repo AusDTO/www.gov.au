@@ -5,7 +5,7 @@
     </div>
     <div class="row fed">
 
-      <div class="col-sm-6 col-md-4">
+      <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
         <div class="panel panel-default">
           <div class="panel-body">
             <div class="media">
@@ -21,7 +21,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-4">
+      <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
         <div class="panel panel-default">
           <div class="panel-body">
             <div class="media">
@@ -37,7 +37,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-4">
+      <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
         <div class="panel panel-default">
           <div class="panel-body">
             <div class="media">
@@ -68,8 +68,8 @@
 
     <div class="row states">
 
-      <div class="col-sm-6 col-md-3">
-        <div class="panel panel-default">
+      <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <div class="panel panel-default act">
           <div class="panel-heading">
             <h3 class="panel-title">Australian Capital Territory</h3>
           </div>
@@ -86,7 +86,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-3">
+      <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">New South Wales</h3>
@@ -104,7 +104,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-3">
+      <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">Northern Territory</h3>
@@ -122,7 +122,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-3">
+      <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">Queensland</h3>
@@ -140,7 +140,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-3">
+      <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">South Australia</h3>
@@ -158,7 +158,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-3">
+      <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">Tasmania</h3>
@@ -176,7 +176,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-3">
+      <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">Victoria</h3>
@@ -194,7 +194,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-3">
+      <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">Western Australia</h3>
