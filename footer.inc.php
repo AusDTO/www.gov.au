@@ -1,53 +1,65 @@
-</div>
+  </div>
 
-<div class="bgColour">
-  <footer class="footer container">
-    <ul class="list-inline pull-left">
-      <li><a href="copyright">Copyright</a></li>
-      <li><a href="privacy">Privacy</a></li>
-      <li><a href="disclaimer">Disclaimer</a></li>
-    </ul>
-  </footer>
-</div>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script>
-  // Smooth Scrolling
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-      || location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 500);
-        return false;
+  <div class="bgColour">
+    <footer class="footer container">
+      <ul class="list-inline pull-left">
+        <li><a href="copyright">Copyright</a></li>
+        <li><a href="privacy">Privacy</a></li>
+        <li><a href="disclaimer">Disclaimer</a></li>
+      </ul>
+    </footer>
+  </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script>
+    // Smooth Scrolling
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+        || location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 500);
+          return false;
+        }
       }
-    }
-  });
+    });
 
-  // clickable boxes
-  $('.panel.panel-default').click(function(e) {
-    e.preventDefault();
-    window.location = $('.panel-body a', this).attr('href');
-  });
-  // only change the cursor if jQuery is working..
-  $('.panel.panel-default').css('cursor', 'pointer');
+    // clickable boxes
+    $('.panel.panel-default').click(function(e) {
+      e.preventDefault();
+      window.location = $('.panel-body a', this).attr('href');
+    });
+    // only change the cursor if jQuery is working..
+    $('.panel.panel-default').css('cursor', 'pointer');
 
 
-  // IE10 viewport hack for Surface/desktop Windows 8 bug
-  (function () {
-    'use strict';
-    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-      var msViewportStyle = document.createElement('style')
-      msViewportStyle.appendChild(
-        document.createTextNode(
-          '@-ms-viewport{width:auto!important}'
+    // IE10 viewport hack for Surface/desktop Windows 8 bug
+    (function () {
+      'use strict';
+      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style')
+        msViewportStyle.appendChild(
+          document.createTextNode(
+            '@-ms-viewport{width:auto!important}'
+          )
         )
-      )
-      document.querySelector('head').appendChild(msViewportStyle)
-    }
-  })();
-</script>
+        document.querySelector('head').appendChild(msViewportStyle)
+      }
+    })();
+
+    // Google Analytics
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38781689-1']);
+    _gaq.push(['_setDomainName', 'www.gov.au']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </body>
 </html>
