@@ -19,8 +19,9 @@
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         if (target.length) {
           $('html,body').animate({
-            scrollTop: target.offset().top
+            scrollTop: target.offset().top - 10
           }, 500);
+          jQuery('#' + this.hash.slice(1) + ' h2').addClass('anchorHighlight');
           return false;
         }
       }
@@ -34,7 +35,6 @@
     // only change the cursor if jQuery is working..
     $('.panel.panel-default').css('cursor', 'pointer');
 
-
     // IE10 viewport hack for Surface/desktop Windows 8 bug
     (function () {
       'use strict';
@@ -47,18 +47,6 @@
         )
         document.querySelector('head').appendChild(msViewportStyle)
       }
-    })();
-
-    // Google Analytics
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-38781689-1']);
-    _gaq.push(['_setDomainName', 'www.gov.au']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
 </body>

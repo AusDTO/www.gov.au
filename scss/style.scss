@@ -8,6 +8,8 @@ $primaryColour: #563d7c;  //purple
 $primaryColourLighter: lighten( $primaryColour, 12% );  //lighter purple
 // $primaryColourLighter: #07076a;  // 90's blue
 
+$flashColour: lighten( $primaryColour, 58% ); // super light purple
+
 // import template styles
 // @import "justified-nav";
 // @import "btn-outline";
@@ -28,7 +30,6 @@ $primaryColourLighter: lighten( $primaryColour, 12% );  //lighter purple
 
 a,
 .panel a {
-  //color: #337ab7;
   color: $primaryColour;
   text-decoration: none;
   &:active,
@@ -99,10 +100,6 @@ a img {
   text-decoration: none;
 }
 
-.container {
-  // min-height: 59vh;
-}
-
 .bgColour {
   //position: relative;
   //padding: 30px 15px;
@@ -164,11 +161,6 @@ a img {
   margin-top: 20px;
 }
 
-#local {
-  // padding-bottom: 0;
-  // margin-bottom: 0;
-}
-
 .lead {
   margin-bottom: 0.5em;
 }
@@ -215,6 +207,50 @@ a img {
     color: $primaryColour;
   }
 }
+
+
+
+// for jump to Flash animation
+.anchorHighlight {
+  -moz-animation: flash 2s ease-out;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation: flash 2s ease-out;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation: flash 2s ease-out;
+  -ms-animation-iteration-count: 1;
+}
+// @-webkit-keyframes flash {
+//   0% { background-color:none;}
+//   50% { background-color:$flashColour;}
+//   100% {background-color:none;}
+// }
+// @-moz-keyframes flash {
+//   0% { background-color:none;}
+//   50% { background-color:$flashColour;}
+//   100% {background-color:none;}
+// }
+// @-ms-keyframes flash {
+//   0% { background-color:none;}
+//   50% { background-color:$flashColour;}
+//   100% {background-color:none;}
+// }
+@-webkit-keyframes flash {
+  0% { color:#333;}
+  50% { color:$primaryColour;}
+  100% {color:#333;}
+}
+@-moz-keyframes flash {
+  0% { color:#333;}
+  50% { color:$primaryColour;}
+  100% {color:#333;}
+}
+@-ms-keyframes flash {
+  0% { color:#333;}
+  50% { color:$primaryColour;}
+  100% {color:#333;}
+}
+
+
 
 // our responsive styles
 @import "responsive";

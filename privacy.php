@@ -36,7 +36,7 @@ include "header.inc.php"; ?>
 <p class="lead">By using this website, you consent to the processing of data about you by Google in the manner described in <a href="http://www.google.com/policies/privacy/">Google's Privacy Policy</a> and for the purposes set out above. You can opt out of Google Analytics if you disable or refuse the cookie, disable JavaScript, or <a href="https://tools.google.com/dlpage/gaoptout">use the opt-out service provided by Google</a>.</p>
 
 <h2>Our obligations</h2>
-<p class="lead">This online service is bound by the provisions of the <a href="http://www.comlaw.gov.au/Series/C2004A03712"><em>Privacy Act 1988 (Cth)</em></a>, including the <a href="http://www.oaic.gov.au/privacy/privacy-act/australian-privacy-principles">Australian Privacy Principles</a><em>. </em></p>
+<p class="lead">This online service is bound by the provisions of the <a href="http://www.comlaw.gov.au/Series/C2004A03712"><em>Privacy Act 1988 (Cwlth)</em></a>, including the <a href="http://www.oaic.gov.au/privacy/privacy-act/australian-privacy-principles">Australian Privacy Principles</a><em>. </em></p>
 <p class="lead">We also follow the <a href="http://www.oaic.gov.au/privacy/privacy-resources/privacy-guides/guidelines-for-federal-and-act-government-websites">Guidelines for Federal and ACT government websites</a> issued by the <a href="http://www.oaic.gov.au/">Office of the Australian Information Commissioner</a>.</p>
 
 <h2>Contact us</h2>

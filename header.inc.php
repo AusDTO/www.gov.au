@@ -1,25 +1,20 @@
 <?php
 $base_url = "./";
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <meta name="robots" content="noindex, nofollow">  <!-- may want this gone before in prod :P -->
+  <!-- may want this gone before in prod :P -->
+  <meta name="robots" content="noindex, nofollow">
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo $page; ?> - www.gov.au</title>
-
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
   <link href="style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
   <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="favicon.ico"/>
   <!--[if IE]>
     <link rel="shortcut icon" href="favicon.ico"/>
@@ -38,6 +33,15 @@ $base_url = "./";
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-38781689-1', 'auto');
+    ga('send', 'pageview');
+    ga('set', 'anonymizeIp', true);
+  </script>
 </head>
 
 <body>
