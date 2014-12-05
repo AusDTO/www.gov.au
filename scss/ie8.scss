@@ -1,5 +1,17 @@
 $primaryColour: #563d7c;  //purple
 
+.jumbotron.bgColour {
+  margin-bottom: 15px;
+  p {
+    background: url('img/sc.png') no-repeat center left;
+    margin: 0;
+    line-height: 3.6em;
+    text-align: right;
+    font-size: 2.4em;
+    font-weight: 100;
+  }
+}
+
 .bgColour {
   background-color: $primaryColour;
   background-image: none;
@@ -23,5 +35,5 @@ $primaryColour: #563d7c;  //purple
 .footer {
   background: none !important;
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 15px;
 }
