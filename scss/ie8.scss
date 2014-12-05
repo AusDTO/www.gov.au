@@ -1,5 +1,10 @@
 $primaryColour: #563d7c;  //purple
 
+
+html {
+  background-color: $primaryColour;
+}
+
 .jumbotron.bgColour {
   margin-bottom: 15px;
   p {
