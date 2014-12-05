@@ -19,8 +19,13 @@ $primaryColour: #563d7c;  //purple
   background-repeat: repeat-x;
 }
 
-.fed .col-xs-6 {
-  width: 33%;
+.fed {
+  .panel p {
+    min-height: 6em;
+  }
+  .col-xs-6 {
+    width: 33%;
+  }
 }
 
 .states .col-xs-6 {
@@ -35,5 +40,5 @@ $primaryColour: #563d7c;  //purple
 .footer {
   background: none !important;
   margin-top: 0;
-  padding-top: 15px;
+  padding-top: 20px;
 }
