@@ -36,7 +36,7 @@ a,
   text-decoration: none;
   &:active,
   &:focus {
-    color: #fff;
+    color: #fff !important;
     background-color: $primaryColour;
   }
   &:hover {
