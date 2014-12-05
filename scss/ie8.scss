@@ -12,10 +12,16 @@ $primaryColour: #563d7c;  //purple
 }
 
 .states .col-xs-6 {
-  width: 33%;
+  width: 25%;
 }
 
 #state {
   margin-top: 0;
   border: none;
+}
+
+.footer {
+  background: none !important;
+  margin-top: 0;
+  padding-top: 0;
 }
