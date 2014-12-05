@@ -1,0 +1,17 @@
+$primaryColour: #563d7c;  //purple
+
+.bgColour {
+  background-color: $primaryColour;
+  background-image: none;
+  filter: none;
+  background-repeat: repeat-x;
+}
+
+.fed .col-xs-6 {
+  width: 30%;
+}
+
+#state {
+  margin-top: 0;
+  border: none;
+}
