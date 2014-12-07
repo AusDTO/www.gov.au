@@ -206,6 +206,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/ie8.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ie8.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/img\/act.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -400,28 +409,6 @@
 		"initialSize": 9614,
 		"inputAbbreviatedPath": "\/img\/qld@2x.png",
 		"outputAbbreviatedPath": "\/img\/qld@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/sa.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4523,
-		"inputAbbreviatedPath": "\/img\/sa.png",
-		"outputAbbreviatedPath": "\/img\/sa.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/sa@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9175,
-		"inputAbbreviatedPath": "\/img\/sa@2x.png",
-		"outputAbbreviatedPath": "\/img\/sa@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
