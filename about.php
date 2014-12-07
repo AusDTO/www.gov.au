@@ -19,7 +19,7 @@ include "header.inc.php"; ?>
 <h2>Choosing which jurisdiction</h2>
 <p class="lead">If you are unfamiliar with the Australian Government, the national government is known as the Australian Government. The responsibilities of the Australian Government include national matters such as external trade and commerce, quarantine, currency, patents, immigration, defence, telecommunications, and the provision of welfare and other assistance payments.</p>
 
-<p class="lead">Other matters not provided for under the <a href="http://www.aph.gov.au/senate/general/constitution/index.htm">Australian Constitution</a> as a Commonwealth responsibility are the responsibility of the states - New South Wales, Victoria, Queensland, South Australia, Western Australia and Tasmania. Two mainland territories - the Northern Territory and the Australian Capital Territory - are self-governing and have similar responsibilities to the states.</p>
+<p class="lead">Other matters not provided for under the <a href="http://www.aph.gov.au/About_Parliament/Senate/Powers_practice_n_procedures/Constitution">Australian Constitution</a> as a Commonwealth responsibility are the responsibility of the states - New South Wales, Victoria, Queensland, South Australia, Western Australia and Tasmania. Two mainland territories - the Northern Territory and the Australian Capital Territory - are self-governing and have similar responsibilities to the states.</p>
 
 <p class="lead">The states and territories are responsible for matters such as policing, public schools, roads and traffic including driver's licences and vehicle registrations, public hospitals, public housing, and business regulation.</p>
 
