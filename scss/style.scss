@@ -62,7 +62,7 @@ body {
 }
 
 //.masthead .text-muted,
-.navbar-brand {
+a.navbar-brand {
   font-weight: 100;
   font-size: 2.2em;
   margin-top: 0;
@@ -73,12 +73,17 @@ body {
     font-weight: 400;
     color: #444;
   }
+  &:active, &:focus, &:hover {
+    color: $primaryColour !important;
+    text-decoration: underline;
+  }
 }
 .navbar-default .navbar-nav>li>a {
   color: #666;
   text-decoration: none;
   &:hover, &:active, &:focus {
     text-decoration: underline;
+    color: $primaryColour !important;
   }
 }
 .navbar {
@@ -206,7 +211,7 @@ a img {
   a:active,
   a:focus {
     background-color: #fff;
-    color: $primaryColour;
+    color: $primaryColour !important;
   }
 }
 
