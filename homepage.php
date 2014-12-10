@@ -151,7 +151,7 @@
                 <img src="img/sa.png" srcset="img/sa@2x.png 2x" alt="" width="60" height="60">
               </span>
               <div class="media-body">
-                <h4 class="media-heading"><a href="http://sa.gov.au/">sa.gov.au</a></h4>
+                <h4 class="media-heading"><a href="http://www.sa.gov.au/">www.sa.gov.au</a></h4>
               </div>
             </div>
           </div>
