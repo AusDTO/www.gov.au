@@ -1,5 +1,0 @@
-Options -Indexes
-
-RewriteEngine on
-RewriteCond %{HTTP_REFERER} !^http://data\.australia\.gov\.au/licence [NC]
-RewriteRule ^Toiletmap_Latest\.zip$ http://data.australia.gov.au/licence?id=610 [R,NC,L]

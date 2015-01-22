@@ -32,7 +32,7 @@ include "header.inc.php"; ?>
   <a href="http://www.gov.au/">
     <img src="img/linkto.png" srcset="img/linkto@2x.png"
       alt="Access to the information and services of the Australian federal,
-      state &amp; territory governments" border="0" width="140" height="45" />
+      state &amp; territory governments" border="0" width="140" height="45" >
   </a>
 </p>
 <pre>

@@ -10,8 +10,8 @@ include "header.inc.php"; ?>
 
 <p class="lead">
   <a href="http://creativecommons.org/licenses/by/3.0/au/" style="text-decoration: none;">
-    <img alt="Creative Commons - Attribution" src="img/ccby1.png"/>
-    <img alt="Creative Commons - Attribution" src="img/ccby2.png"/>
+    <img alt="Creative Commons - Attribution" src="img/ccby1.png">
+    <img alt="Creative Commons - Attribution" src="img/ccby2.png">
   </a>
 </p>
 <p class="lead">The details of the relevant licence conditions are available on the Creative Commons website (accessible using the links, above, or the linked Creative Commons licence images), as is the <a href="http://creativecommons.org/licenses/by/3.0/au/legalcode">full legal code for the CC BY 3.0 AU licence</a>.</p>
