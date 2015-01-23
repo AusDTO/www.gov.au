@@ -167,7 +167,24 @@ module.exports = function(grunt) {
 
 
 
-        // this stuff will run when you run 'grunt watch'
+        // CasperJS tests to run locally
+        casperjs: {
+          // options: {
+          //   async: {
+          //     parallel: true  //defaults to false
+          //   }
+          // },
+          files: ['../tests/casperjs/**/*.js']
+        },
+
+
+
+
+
+
+
+
+        // This stuff will run when you run 'grunt watch' (which is set to run in background on new devBash setups)
         watch: {
           configFiles: {
             files: [ 'Gruntfile.js', 'config/*.js' ],
