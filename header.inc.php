@@ -9,7 +9,7 @@ $base_url = "/";
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo $page; ?> - www.gov.au</title>
-  <link href="/css/style.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
   <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/favicon.ico">
   <!--[if IE]>
     <link rel="shortcut icon" href="/favicon.ico">

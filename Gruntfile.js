@@ -94,6 +94,12 @@ module.exports = function(grunt) {
           cssDir: 'css',
           outputStyle: 'compressed',
           environment: 'production'
+        },
+        files: {                         // Dictionary of files
+          // 'style.min.css': 'style.min.scss',       // 'destination': 'source'
+          // 'ie8.css': 'ie8.scss'
+          // 'css/style.min.css': 'scss/style.min.scss',       // 'destination': 'source'
+          // 'css/ie8.css': 'scss/ie8.scss'
         }
       }
     },
@@ -115,10 +121,11 @@ module.exports = function(grunt) {
     uncss: {
       dist: {
         options: {
-          report: 'gzip'
+          report: 'gzip',
+          stylesheets: ['css/style.css']
         },
         files: {
-          'css/style.un.css':[
+          'css/style.css':[
           '/index.html',
           'http://www.gov.dev/',
           'http://www.gov.dev/about',
@@ -135,13 +142,13 @@ module.exports = function(grunt) {
       target: {
         options: {
           // ignore       : ['#added_at_runtime', /test\-[0-9]+/],
-          stylesheets           : ['css/style.un.css'],
+          stylesheets           : ['css/style.css'],
           keepSpecialComments   : 0,    // for keeping all (default), 1 for keeping first one only (WordPress etc), 0 for removing all
-          ignoreSheets          : [/fonts.googleapis/]
+          ignoreSheets          : ['fonts.googleapis']
         },
         files: {
           // 'output.css': ['input1.css', 'input2.css']
-          'css/style.min.css': ['css/style.un.css']
+          'css/style.css': ['css/style.css']
         }
       }
     },
