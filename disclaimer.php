@@ -11,14 +11,13 @@ include "header.inc.php"; ?>
   </p>
 </div>
 
-<p class="lead">The site is managed by the Department of Finance (Finance). The information available from
-  <a href="http://www.gov.au/">www.gov.au</a> contains links to websites that are external to Finance.
-  Finance takes reasonable care in linking websites but has no direct
+<p class="lead">The site is managed by the Digital Transformation Office (DTO). The information available from
+  <a href="http://www.gov.au/">www.gov.au</a> contains links to websites that are external to the DTO.
+  DTO takes reasonable care in linking websites but has no direct
   control over the content of the linked sites, or over content changes that may occur on those sites.
 </p>
 <p class="lead">It is the responsibility of the user to make their own decisions about the accuracy, currency,
   reliability and correctness of information contained in linked external websites.
 </p>
-
 
 <?php include "footer.inc.php";

@@ -8,7 +8,7 @@ include "header.inc.php"; ?>
 </div>
 
 <h2>What is www.gov.au?</h2>
-<p class="lead">Thank you for visiting <em>www.gov.au,</em> an online service managed by the Department of Finance, located in Canberra, ACT. We respect and protect the privacy of our users. This privacy policy tells you how we collect and use information.</p>
+<p class="lead">Thank you for visiting <em>www.gov.au,</em> an online service managed by the Digital Transformation Office (DTO), located in Canberra, ACT. We respect and protect the privacy of our users. This privacy policy tells you how we collect and use information.</p>
 <p class="lead">The term "Personal Information" in this privacy policy means any information from which your identity is apparent or can be reasonably ascertained. We do not collect Personal Information about you when you visit this online service.</p>
 <p class="lead">You can use this service without telling us who you are or revealing other Personal Information. If you send us a contact or feedback form you do not need to identify yourself or use your real name.</p>
 
