@@ -14,9 +14,11 @@ set -x
 shopt -s extglob
 
 verify_arguments() {
-  test -n "$S3BUCKET" || echo "S3BUCKET must be set" && exit 1
-  test -n "$AWS_ACCESS_KEY_ID" || echo "AWS_ACCESS_KEY_ID must be set" && exit 1
-  test -n "$AWS_SECRET_ACCESS_KEY" || echo "AWS_SECRET_ACCESS_KEY must be set" && exit 1
+  set +x
+  test -n "$S3BUCKET" || (echo "S3BUCKET must be set" && exit 1)
+  test -n "$AWS_ACCESS_KEY_ID" || (echo "AWS_ACCESS_KEY_ID must be set" && exit 1)
+  test -n "$AWS_SECRET_ACCESS_KEY" || (echo "AWS_SECRET_ACCESS_KEY must be set" && exit 1)
+  set -x
 }
 
 setup_awscli() {
