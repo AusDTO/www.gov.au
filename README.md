@@ -2,7 +2,7 @@
 
 The placeholder site for [www.gov.au](http://www.gov.au/)
 
-[![Circle CI](https://circleci.com/gh/AusDTO/www.gov.au.svg?style=svg&circle-token=e2ad7c1b0e6a0825c4c805e4412d064c98cd23cc)](https://circleci.com/gh/AusDTO/www.gov.au)
+[![Circle CI](https://circleci.com/gh/AusDTO/www.gov.au.svg)](https://circleci.com/gh/AusDTO/www.gov.au)
 
 ## Dependencies
 
