@@ -26,7 +26,7 @@ setup_awscli() {
 }
 
 update_s3() {
-  aws s3 sync --exclude .git . s3://${S3BUCKET} --delete --acl public-read --cache-control "public, max-age=604800"
+  aws s3 sync . s3://${S3BUCKET} --delete --acl public-read --cache-control "public, max-age=604800" --exclude ".git/*" --exclude "bin/*"
 }
 
 main() {
